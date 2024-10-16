@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:rgb(238, 238, 249);
+}
+h1{
+    text-align:center;
+    margin:1rem;
+    
+}
+.main{
+    height:100vh;
+    width:100%;
+    text-align:center;
+
+}
+.mainContent{
+    height:8rem;
+    width:100%;
+    display:flex;
+    align-items:center;
+    
+}
+.newContent{
+    height:0rem;
+    width:70rem;
+}
+.mainContent div{
+    margin-right:4%;
+
+} 
+.div1{
+    width:7rem;
+}
+.oneOfMain div option{
+    background-color:rgb(8, 120, 158);
+    color:white;
+}
+
+.tableContent{
+    margin:1rem;
+}
+.div4 .placeValue option a{
+    display:none;
+}
+.btn1{
+    /* position:absolute;
+    left:1.2rem;
+    top:6.4rem; */
+    width:1.4rem;
+    height:1.4rem;
+    background-color:rgb(29, 114, 219);
+    color:white;
+    border:0;
+    text-align:center;
+    padding-top:0;
+    opacity:.7;
+}
+table{
+    margin:1rem;
+    border:0;
+}
+.oneOfMain{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    padding:1rem;
+}
+
+
+button:hover{
+    opacity:1;
+}
+.btn2{
+    background-color:white;
+    color:black;
+    width:5rem;
+    border-radius:1rem;
+}
+
+.btn3{
+    height:1rem;
+    width:1rem;
+    color:black;
+    background-image:url("download.png");
+    background-size: cover;
+    border:0;
+    opacity:.7;
+}
+.table-responsive{
+    overflow:hidden;
+}
+
+@media (min-width:330px) and (max-width:800px){
+    .mainContent{
+        flex-direction:column;
+        justify-content:space-between;
+    }
+}
+@media (min-width:330px) and (max-width:500px){
+    #myTable{
+        font-size:50%;
+    }
+}
+@media (min-width:500px) and (max-width:600px){
+    #myTable{
+        font-size:60%;
+    }
+}
+@media (min-width:600px) and (max-width:800px){
+    #myTable{
+        font-size:90%;
+    }
+}
